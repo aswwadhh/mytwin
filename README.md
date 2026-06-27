@@ -1,4 +1,4 @@
-# 🎓 MyTwin — Personal Academic Analytics Dashboard
+#  MyTwin — Personal Academic Analytics Dashboard
 
 > **"See your data. Understand your trajectory. Act on it."**
 
@@ -10,14 +10,14 @@
 
 ---
 
-## 🔗 Demo
+##  Demo
 
-> 🚀 **Live Dashboard:** _Coming in Week 4 (Streamlit Cloud)_
-> 🎥 **Loom Walkthrough:** _Coming in Week 4_
+>  **Live Dashboard:** _Coming in Week 4 (Streamlit Cloud)_
+>  **Loom Walkthrough:** _Coming in Week 4_
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 **Problem Code:** G1 | **Segment:** Foundations of Analytics Engineering
 
@@ -33,7 +33,7 @@ Built as part of the **2nd Year B.Tech CSE-AIDE Internship (June–July 2026)** 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Raw Data (CSV / Spreadsheet)
@@ -89,7 +89,7 @@ Raw Data (CSV / Spreadsheet)
 
 ---
 
-## ⚡ Quickstart
+##  Quickstart
 
 ### Prerequisites
 - Python 3.11+
@@ -134,17 +134,15 @@ pytest tests/
 
 | Data | Source | Format |
 |------|--------|--------|
-| Internal marks | Synthesised (realistic fake data) | CSV |
+| CA Marks | Synthesised| CSV |
 | Attendance % | Synthesised | CSV |
-| Assignment scores | Synthesised | CSV |
 | Peer profiles | Manually created (3–4 anonymised) | CSV |
 
-> All data is **synthesised** (made up but realistic). No real student data is stored or used.
 > Raw files are in `/data/raw/`. Transformed files are in `/data/processed/`.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 mytwin/
@@ -220,7 +218,7 @@ mytwin/
 
 ---
 
-## 📝 What I Learned This Week
+##  What I Learned This Week
 
 > _(Updated weekly)_
 
@@ -243,7 +241,7 @@ mytwin/
 
 ---
 
-## 🚀 3rd Year Extension Plan
+##  3rd Year Extension Plan
 
 This project is the **seed of a 3rd year portfolio.** Here's where it goes:
 
@@ -254,11 +252,10 @@ This project is the **seed of a 3rd year portfolio.** Here's where it goes:
 | Dec 2026 | Multi-student support (classmates can sign up) |
 | Jun–Jul 2027 (3rd year internship) | Full SaaS — multi-tenant, LMS integration, real data |
 
-> Full plan: [`docs/roadmap_3rd_year.md`](docs/roadmap_3rd_year.md)
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - All data is synthesised — not connected to any real LMS or college system
 - What-If simulator uses a simplified CGPA formula
@@ -267,7 +264,7 @@ This project is the **seed of a 3rd year portfolio.** Here's where it goes:
 
 ---
 
-## 💼 Resume Bullets
+## Resume Bullets
 
 ```
 • Built MyTwin, a personal academic analytics dashboard using Python,
@@ -291,13 +288,13 @@ This project is the **seed of a 3rd year portfolio.** Here's where it goes:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License — see [LICENSE](LICENSE)
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - ScoreLab (fictional client scenario) — internship problem framework
 - Streamlit, DuckDB, dbt — open-source tools that made this possible
